@@ -17,12 +17,14 @@ namespace git
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    /// //C1
+    /// //C2
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            MessageBox.Show("C2");
+            this.Close();
         }
     }
 }
